@@ -21,9 +21,9 @@ def encode(value):
 	return output
 	
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description="bchhun amazing crypto")
-	parser.add_argument("--decode", action="store_true", default=False, help="Decode stuff")
-	parser.add_argument("input_string", metavar="STR", nargs="?", default="-", type=str, help="The string to decode or encode. Pass '-' to read from stdin")
+	parser = argparse.ArgumentParser(description="bchhun's crypto")
+	parser.add_argument("--decode", action="store_true", default=False, help="decode STR")
+	parser.add_argument("input_string", metavar="STR", type=str, help="the string to decode or encode. Pass '-' to read from stdin.")
 
 	args = parser.parse_args()
 
