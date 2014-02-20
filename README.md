@@ -3,7 +3,7 @@ bchhun_crypto.pybchhun_crypto
 
 bchhun's encryption
 
-Ùsage
+Usage
 -----
 ```
 usage: bchhun_crypto.py [-h] [--decode] [STR]
@@ -12,7 +12,6 @@ bchhun's crypto
 
 positional arguments:
   STR         the string to decode or encode. Pass '-' to read from stdin.
-              Default is '-' (stdin)
 
 optional arguments:
   -h, --help  show this help message and exit
