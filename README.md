@@ -1,4 +1,4 @@
-bchhun_crypto.pybchhun_crypto
+bchhun_crypto
 =============
 
 bchhun's encryption
